@@ -1,3 +1,5 @@
+#!/bin/bash
+
 readarray -d / -t strarr <<< $1
 
 dir=${strarr[0]}
