@@ -1,0 +1,7 @@
+requirements.txt
+
+*.png
+*.jpg
+*.xcf
+
+!meme.png
