@@ -1,3 +1,9 @@
+"""
+Escrito por Jesús Omar Cuenca Espino 
+A01378844@itesm.mx
+
+25/03/2021
+"""
 import requests
 from selenium.webdriver import Chrome
 from selenium.webdriver.common.by import By

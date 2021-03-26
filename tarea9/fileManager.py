@@ -1,3 +1,10 @@
+"""
+Escrito por Jesús Omar Cuenca Espino 
+A01378844@itesm.mx
+
+25/03/2021
+"""
+
 import os
 
 def createFolder(dirName : str):
