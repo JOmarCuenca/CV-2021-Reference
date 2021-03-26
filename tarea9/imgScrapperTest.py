@@ -99,13 +99,14 @@ if __name__ == "__main__":
     last_height = driver.execute_script("return document.body.scrollHeight")
 
     if(openBrowser):
+        deleteFolder("train")
+        deleteFolder("test")
+        
         mainActivity(driver, last_height, targetNumImgs)
 
         driver.close()
 
-        deleteFolder("train")
         createFolder("train")
-        deleteFolder("test")
         createFolder("test")
 
         writeImgs(imgURL)

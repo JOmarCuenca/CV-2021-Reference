@@ -6,6 +6,7 @@ A01378844@itesm.mx
 """
 
 import os
+from shutil import rmtree
 
 def createFolder(dirName : str):
     try:
@@ -16,8 +17,10 @@ def createFolder(dirName : str):
 def deleteFolder(dirName : str):
     try:
         os.rmdir(dirName)
-    except Exception:
+    except FileNotFoundError:
         print(f"Folder doesn't exist")
+    except Exception as err:
+        rmtree(dirName)
 
 if __name__ == "__main__":
     import time
