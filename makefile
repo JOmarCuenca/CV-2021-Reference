@@ -1,4 +1,4 @@
 clean:
 	@echo "Cleaning all the notebook ipynb_checkpoints"
-	rm -r ./*/.ipynb_checkpoints/
-	m -r .ipynb_checkpoints/
+	rm -rf ./*/.ipynb_checkpoints/
+	rm -rf .ipynb_checkpoints/
