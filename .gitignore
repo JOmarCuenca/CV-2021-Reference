@@ -1,5 +1,7 @@
 env/
 .vscode
 .ip*
+tarea15/data
+tarea15/*.zip
 
 **__pycache__**
